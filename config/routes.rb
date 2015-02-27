@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  resources :users
-
   resources :to_dos
 
   root to: 'todos#index'
